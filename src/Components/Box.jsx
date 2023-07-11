@@ -8,7 +8,7 @@ import { COPY_SUCCESS, Err_MSG } from '../messages';
 
 function Box() {
     const [length, setLength] = useState(8);
-    const [password, setPassword] = useState("********");
+    const [password, setPassword] = useState('');
     const [upperCase, setUpperCase] = useState(false);
     const [lowerCase, setLowerCase] = useState(false);
     const [numbers, setNumbers] = useState(false);
